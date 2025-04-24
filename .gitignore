@@ -1,0 +1,14 @@
+# Ignore WordPress core
+wp-admin/
+wp-includes/
+
+# Ignore uploads (souvent lourd et inutile à versionner)
+wp-content/uploads/
+
+# Ignore config et DB
+wp-config.php
+*.sql
+
+# Ignore fichiers temporaires
+node_modules/
+*.log
